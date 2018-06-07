@@ -37,6 +37,7 @@ public class SliderSettings extends PreferenceActivity
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         addPreferencesFromResource(R.xml.slider_panel);
 
         mSliderTop = (ListPreference) findPreference("keycode_top_position");
