@@ -15,6 +15,7 @@
     <application
             android:icon="@android:drawable/sym_def_app_icon"
             android:label="DeviceHandler"
+	    android:supportsRtl="true"
             >
 
         <!-- stub to ensure its loaded - DO NOT REMOVE -->
@@ -42,7 +43,7 @@
                 android:resource="@drawable/ic_settings_additional_buttons" />
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
+                android:value="com.android.settings.category.device" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/device_settings_dashboard_summary" />
         </activity>
